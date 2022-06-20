@@ -4,7 +4,7 @@
 //String Copier
 void copy(char* dst, char* src){
 	while(*src != '\0'){
-		strcpy(dst, src);
+		*dst = *src;
 		src++;
 		dst++;
 	}
